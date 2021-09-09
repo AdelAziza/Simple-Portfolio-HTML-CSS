@@ -1,5 +1,6 @@
 body html {
   height: 100%;
+  background-color: darkgray;
 }
 html {
   display: block;
@@ -11,8 +12,69 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* opacity: 0.6; */
 }
 .header {
   padding: 10px;
   text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  animation-name: an1;
+  background-color: darkgray;
 }
+.p1 {
+  text-align: right;
+  font-size: 50px;
+  color: black;
+  font-style: italic;
+}
+.p2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 500;
+  background-color: darkgray;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  width: 20%;
+  background-color: darkgray;
+  position: fixed;
+  height: 80%;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+li a {
+  color: maroon;
+  font-style: oblique;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* All for About HTML Page */
+.div-h {
+  background-color: rgb(0, 102, 128);
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+.para1 {
+  background-image: url("/images/adel4.jpeg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* All styles for Experience Page */
