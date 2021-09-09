@@ -68,7 +68,7 @@ li a {
   text-align: center;
 }
 
-.para1 {
+.para {
   background-image: url("/images/adel4.jpeg");
   min-height: 500px;
   background-attachment: fixed;
@@ -78,3 +78,19 @@ li a {
 }
 
 /* All styles for Experience Page */
+.div-e {
+  background-color: rgb(0, 102, 128);
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.para-e {
+  background-image: url("/images/Experience-photo2.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
