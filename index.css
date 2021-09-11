@@ -72,12 +72,30 @@ html {
   margin-left: 35%;
   align-items: center;
 }
-.p1 {
+.p1-a {
   font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: left;
+  float: left;
+  border: 2px solid black;
+  width: 45%;
+  background-color: darkgrey;
+  height: 280px;
+  border-radius: 4px;
+  margin-top: 160px;
 }
-
+.p2-a {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  float: right;
+  border: 2px solid rgb(0, 0, 0);
+  width: 45%;
+  height: 280px;
+  background-color: darkgrey;
+  border-radius: 7px;
+  margin-top: 120px;
+}
 .para {
   background-image: url("/images/adel4.jpeg");
   min-height: 500px;
